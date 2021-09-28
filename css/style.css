@@ -48,6 +48,42 @@ ul {
 /*====================
 Header Area
 ======================*/
+.header-area {
+  padding: 30px 0;
+}
+.header-area .header__logo {
+  width: 300px;
+  float: left;
+}
+.header-area .header__logo a {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 23px;
+  color: #ff7720;
+}
+.header-area .header__nav {
+  float: right;
+  width: 870px;
+  margin-left: 30px;
+}
+.header-area .header__nav ul {
+  float: right;
+}
+.header-area .header__nav ul li {
+  display: inline-block;
+}
+.header-area .header__nav ul a {
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.header-area .header__nav ul a:hover {
+  background: #ff7720;
+  color: #ffffff;
+}
+
 /*====================
 Banner Area
 ======================*/
