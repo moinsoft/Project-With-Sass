@@ -3,3 +3,57 @@
 /*====================
 Services Area
 ======================*/
+
+
+.services-area {
+  background-color: $bgLightGrayColor;
+
+  .single-service {
+    background-color: $whiteColor;
+    border: 1px solid $lightGrayColor;
+    padding: 40px 20px;
+    float: left;
+    width: 380px;
+    border-radius: 5px;
+    margin: 0 30px 30px 0;
+    transition: all 0.3s linear;
+
+    // Select every 3rd child item
+
+    &:nth-child(3n) {
+      margin-right: 0;
+    }
+
+    // Select All Without The First Three
+
+    &:nth-child(n+4) {
+      margin-bottom: 0;
+    }
+
+    &:hover {
+      border: 1px solid $primaryColor;
+
+      i {
+        background-color: $primaryColor;
+        color: $whiteColor;
+      }
+    }
+
+    i {
+      font-size: 25px;
+      border: 1px solid $lightGrayColor;
+      width: 50px;
+      height: 50px;
+      line-height: 50px;
+      border-radius: 50%;
+      transition: all 0.3s linear;
+    }
+
+    h4 {
+      text-transform: capitalize;
+      font-size: 26px;
+      font-weight: 500;
+      margin: 20px 0;
+    }
+  }
+}
