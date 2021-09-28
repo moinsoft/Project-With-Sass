@@ -99,6 +99,41 @@ Button CSS
   }
 }
 
+
+/*====================
+Common Section Title
+======================*/
+.section-title{
+  margin-bottom: 60px;
+
+  h4{
+    text-transform: capitalize;
+    font-size: 45px;
+    display: inline-block;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+
+    &::before{
+      content: '';
+      position: absolute;
+      width: 60%;
+      height: 2px;
+      background-color: $primaryColor;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+
+  p {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  
+}
+
 /*====================
 Margin & Padding
 ======================*/

@@ -96,6 +96,35 @@ Button CSS
 }
 
 /*====================
+Common Section Title
+======================*/
+.section-title {
+  margin-bottom: 60px;
+}
+.section-title h4 {
+  text-transform: capitalize;
+  font-size: 45px;
+  display: inline-block;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+.section-title h4::before {
+  content: "";
+  position: absolute;
+  width: 60%;
+  height: 2px;
+  background-color: #ff7720;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.section-title p {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/*====================
 Margin & Padding
 ======================*/
 .pt-50 {
@@ -209,6 +238,36 @@ Banner Area
 /*====================
 About Area
 ======================*/
+.about .single-about {
+  border: 1px solid #dddddd;
+  padding: 40px 20px;
+  float: left;
+  width: 380px;
+  border-radius: 5px;
+  margin-right: 30px;
+  transition: all 0.3s linear;
+}
+.about .single-about:last-child {
+  margin-right: 0;
+}
+.about .single-about:hover {
+  box-shadow: 0 0 10px 2px #dddddd;
+}
+.about .single-about h4 {
+  text-transform: capitalize;
+  font-size: 26px;
+  font-weight: 500;
+}
+.about .single-about p {
+  margin: 20px 0;
+}
+.about .single-about a {
+  color: #000000;
+}
+.about .single-about a:hover {
+  color: #ffffff;
+}
+
 /*====================
 Services Area
 ======================*/
