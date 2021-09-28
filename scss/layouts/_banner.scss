@@ -4,3 +4,22 @@
 Banner Area
 ======================*/
 
+.banner-area {
+  .banner-content {
+    color: $whiteColor;
+
+    h2 {
+      font-size: 40px;
+      text-transform: capitalize;
+    }
+
+    p {
+      max-width: 700px;
+      margin: 30px auto;
+    }
+
+    a {
+      margin: 0 10px;
+    }
+  }
+}

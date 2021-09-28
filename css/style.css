@@ -46,6 +46,110 @@ ul {
 }
 
 /*====================
+Background CSS
+======================*/
+.bg {
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 2;
+}
+.bg:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: #000000;
+  opacity: 0.4;
+  z-index: -1;
+}
+
+/*====================
+Button CSS
+======================*/
+.btn {
+  padding: 10px 40px;
+  text-transform: capitalize;
+  font-size: 18px;
+  display: inline-block;
+  border-radius: 5px;
+  color: #ffffff;
+  border: 1px solid #ff7720;
+}
+.btn.box-btn {
+  background-color: #ff7720;
+  transition: all 0.3s linear;
+}
+.btn.box-btn:hover {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+}
+.btn.border-btn {
+  border: 1px solid #ff7720;
+  transition: all 0.3s linear;
+}
+.btn.border-btn:hover {
+  background-color: #ff7720;
+  border: 1px solid #ff7720;
+}
+
+/*====================
+Margin & Padding
+======================*/
+.pt-50 {
+  padding-top: 50px;
+}
+
+.pb-50 {
+  padding-bottom: 50px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.pt-100 {
+  padding-top: 100px;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
+}
+
+/*====================
+Alignment
+======================*/
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+/*====================
 Header Area
 ======================*/
 .header-area {
@@ -87,6 +191,21 @@ Header Area
 /*====================
 Banner Area
 ======================*/
+.banner-area .banner-content {
+  color: #ffffff;
+}
+.banner-area .banner-content h2 {
+  font-size: 40px;
+  text-transform: capitalize;
+}
+.banner-area .banner-content p {
+  max-width: 700px;
+  margin: 30px auto;
+}
+.banner-area .banner-content a {
+  margin: 0 10px;
+}
+
 /*====================
 About Area
 ======================*/
