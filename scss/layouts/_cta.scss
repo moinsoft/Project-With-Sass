@@ -3,3 +3,19 @@
 /*====================
 CTA Area
 ======================*/
+
+.cta-area {
+  background-attachment: fixed;
+  color: $whiteColor;
+
+  h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+  }
+
+  p {
+    max-width: 800px;
+    margin: 30px auto;
+  }
+
+}

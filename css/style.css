@@ -362,6 +362,19 @@ Portfolio Area
 /*====================
 CTA Area
 ======================*/
+.cta-area {
+  background-attachment: fixed;
+  color: #ffffff;
+}
+.cta-area h2 {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.cta-area p {
+  max-width: 800px;
+  margin: 30px auto;
+}
+
 /*====================
 Blog Area
 ======================*/
