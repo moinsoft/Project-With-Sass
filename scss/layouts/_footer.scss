@@ -3,3 +3,30 @@
 /*====================
 Footer Area
 ======================*/
+
+.footer-area{
+  padding: 30px 0;
+  background: linear-gradient(to right, $lightPrimaryColor 0%, $primaryColor 51%, $lightPrimaryColor 100%);
+  background-size: 200% auto;
+  transition: all 0.3s linear;
+
+  &:hover{
+    background-position: right center;
+  }
+
+  p{
+    font-size: 17px;
+    color: $whiteColor;
+
+    a{
+      color: $whiteColor;
+      font-weight: bold;
+      border-bottom: 4px dotted $lightGreenColor;
+      transition: all 0.3s linear;
+
+      &:hover{
+        color: $lightGreenColor;
+      }
+    }
+  }
+}

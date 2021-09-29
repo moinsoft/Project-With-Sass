@@ -501,5 +501,27 @@ Contact Area
 /*====================
 Footer Area
 ======================*/
+.footer-area {
+  padding: 30px 0;
+  background: linear-gradient(to right, #ffa31a 0%, #ff7720 51%, #ffa31a 100%);
+  background-size: 200% auto;
+  transition: all 0.3s linear;
+}
+.footer-area:hover {
+  background-position: right center;
+}
+.footer-area p {
+  font-size: 17px;
+  color: #ffffff;
+}
+.footer-area p a {
+  color: #ffffff;
+  font-weight: bold;
+  border-bottom: 4px dotted #009900;
+  transition: all 0.3s linear;
+}
+.footer-area p a:hover {
+  color: #009900;
+}
 
 /*# sourceMappingURL=style.css.map */
