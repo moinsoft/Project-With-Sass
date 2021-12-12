@@ -1,16 +1,370 @@
-/* X-Small devices (portrait phones, less than 576px) */
 
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {}
+/* large devices (desktops, less than 1200px) */
+@media (max-width: 75em) {
 
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {}
+  .container {
+    padding: 20px;
+  }
 
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {}
+  .header-area .header__logo {
+    width: 32%;
+  }
 
-/* X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {}
+  .header-area .header__nav {
+    width: 63%;
+  }
 
-/* XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {}
+  .about .single-about {
+    width: 31.5%;
+  }
+
+  .services-area .single-service {
+    width: 31.5%;
+  }
+
+  .portfolio-area .single-portfolio {
+    width: 31.5%;
+    height: 211px;
+  }
+
+  .blog-area .blog .single-blog {
+    width: 31.5%;
+  }
+
+  .contact-area .contact-top .single-address {
+    width: 31%;
+    margin: 0 12px;
+  }
+
+  .contact-area .contact-bottom .contact-form {
+    width: 60%;
+  }
+
+  .contact-area .contact-bottom .contact-map {
+    width: 37%;
+  }
+
+}
+
+
+
+
+/* medium devices (tablets, less than 992px) */
+@media (max-width: 62em) {
+
+  .header-area .header__nav ul a {
+    margin-left: 0;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 5px 7px;
+    border-radius: 3px;
+  }
+
+  .about .single-about {
+    width: 30%;
+  }
+
+  .services-area .single-service {
+    width: 30%;
+  }
+
+  .portfolio-area .single-portfolio {
+    width: 30%;
+    height: 211px;
+  }
+
+  .blog-area .blog .single-blog {
+    width: 30%;
+  }
+
+  .btn {
+    font-size: 17px;
+  }
+
+  .contact-area .contact-top .single-address {
+    width: 30%;
+    margin: 0 12px;
+  }
+
+}
+
+
+/* small devices (landscape phones, less than 768px) */
+@media (max-width: 48em) {
+
+  .header {
+    text-align: center;
+  }
+
+  .header-area .header__logo {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .header-area .header__nav {
+    width: 100%;
+  }
+
+  .header-area .header__nav ul {
+    float: none;
+  }
+
+  .header-area .header__nav ul a {
+    margin-left: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
+
+  .banner-area .banner-content h2 {
+    font-size: 35px;
+  }
+
+
+  .banner-area .banner-content p {
+    font-size: 18px;
+  }
+
+  .btn {
+    padding: 5px 40px;
+    font-size: 16px;
+    border-radius: 3px;
+  }
+
+  .section-title h4 {
+    font-size: 30px;
+  }
+
+  .section-title p {
+    font-size: 18px;
+  }
+
+  .about .single-about {
+    float: none;
+    margin: 0 auto 30px auto;
+    width: 70%;
+  }
+
+  .about .single-about:last-child {
+    margin-right: auto;
+  }
+
+  .about .single-about h4 {
+    font-size: 20px;
+  }
+
+  .about .single-about p {
+    font-size: 16px;
+  }
+
+  .services-area .single-service {
+    float: none;
+    margin: 0 auto 30px auto;
+    width: 70%;
+  }
+
+  .services-area .single-service:nth-child(3n) {
+    margin-right: auto;
+  }
+
+  .services-area .single-service:nth-child(n+4) {
+    margin-bottom: 30px;
+  }
+
+  .services-area .single-service h4 {
+    font-size: 20px;
+  }
+
+  .services-area .single-service p {
+    font-size: 16px;
+  }
+
+
+  .portfolio-area .single-portfolio {
+    width: 70%;
+    height: 230px;
+    border-radius: 3px;
+    margin: 0 auto 30px auto;
+    float: none;
+  }
+
+  .portfolio-area .single-portfolio:nth-child(3n) {
+    margin-right: auto;
+  }
+
+  .portfolio-area .single-portfolio:nth-child(n+4) {
+    margin-bottom: 30px;
+  }
+
+  .cta-area h2 {
+    font-size: 40px;
+  }
+
+  .cta-area p {
+    font-size: 18px;
+  }
+
+  .blog-area .blog .single-blog {
+    float: none;
+    margin: 0 auto 30px auto;
+    width: 70%;
+  }
+
+  .blog-area .blog .single-blog:last-child {
+    margin-right: auto;
+  }
+
+  .blog-area .blog .single-blog .blog-content {
+    padding: 20px 10px;
+  }
+
+  .blog-area .blog .single-blog .blog-content h4 {
+    font-size: 20px;
+  }
+
+  .blog-area .blog .single-blog .blog-content p {
+    font-size: 18px;
+  }
+
+
+  .contact-area .contact-top .single-address {
+    width: 100%;
+    margin: 0 0;
+    margin-bottom: 30px;
+  }
+
+  .contact-area .contact-top .single-address h4 {
+    font-size: 20px;
+  }
+
+  .contact-area .contact-bottom .contact-form {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .contact-area .contact-bottom .contact-map {
+    width: 100%;
+  }
+
+}
+
+
+
+/* Extra-small devices (portrait phones, less than 576px) */
+@media (max-width: 36em) {
+
+  .pt-100 {
+    padding-top: 50px;
+  }
+
+  .pb-100 {
+    padding-bottom: 50px;
+  }
+
+  .header-area .header__nav ul a {
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 2px 5px;
+    border-radius: 3px;
+  }
+
+  .banner-area .banner-content h2 {
+    font-size: 20px;
+  }
+
+  .banner-area .banner-content p {
+    font-size: 14px;
+  }
+
+  .btn {
+    padding: 5px 10px;
+    font-size: 13px;
+    border-radius: 3px;
+  }
+
+  .section-title h4 {
+    font-size: 25px;
+  }
+
+  .section-title p {
+    font-size: 14px;
+  }
+
+  .about .single-about {
+    padding: 20px 10px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .about .single-about h4 {
+    font-size: 20px;
+  }
+
+  .about .single-about p {
+    font-size: 14px;
+  }
+
+  .services-area .single-service {
+    padding: 20px 10px;
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+
+  .services-area .single-service:nth-child(n+4) {
+    margin-bottom: 20px;
+  }
+
+  .services-area .single-service h4 {
+    font-size: 20px;
+  }
+
+  .services-area .single-service p {
+    font-size: 14px;
+  }
+
+  .portfolio-area .single-portfolio {
+    width: 100%;
+    height: 230px;
+    border-radius: 3px;
+  }
+
+  .portfolio-area .single-portfolio {
+    width: 100%;
+    height: 230px;
+    border-radius: 3px;
+    margin: 0 0 20px 0;
+  }
+
+  .portfolio-area .single-portfolio:nth-child(n+4) {
+    margin-bottom: 20px;
+  }
+
+  .cta-area h2 {
+    font-size: 25px;
+  }
+
+  .cta-area p {
+    font-size: 14px;
+  }
+
+  .blog-area .blog .single-blog {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .blog-area .blog .single-blog .blog-content {
+    padding: 20px 10px;
+  }
+
+  .blog-area .blog .single-blog .blog-content h4 {
+    font-size: 20px;
+  }
+  
+
+  .blog-area .blog .single-blog .blog-content p {
+    font-size: 14px;
+  }
+
+}
